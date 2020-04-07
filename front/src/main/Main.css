@@ -1,0 +1,83 @@
+
+#game {
+    display: flex;
+    flex-direction: column;
+}
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  .dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 7px;
+ }
+  .dot-black {
+    background-color: black;
+ }
+  .dot-red {
+    background-color: red;
+ }
+  .dot-blue { 
+    background-color: blue;
+   
+
+ }
+ 
+  .new-game{
+    margin-top: 10px;
+  }
+  
+  
+  .box {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .horizContainer {
+    height: 4px;
+    width: 25px;
+    border: 2px;
+    
+  }
+  
+  .vertContainer {
+    height: 25px;
+    width: 4px;
+    border: 2px;
+  
+  }
+  
+  #board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  
+
+  }
+  
+  #header {
+    padding:10px 50px;
+    margin:10px
+  }
+  .btn{
+      border-radius: 0;
+  }
+  
+  .board{
+    background-color: brown;
+  }
+
+  .nickname{
+    width: 100px;
+    margin-right: 5px;
+  }
+  .winnerform{
+    position: absolute;
+    margin-top: -30%;
+    background: #1b00ff;
+  }
+  
